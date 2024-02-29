@@ -1,9 +1,12 @@
-import Navigation from "../../components/Navigation";
+export const metadata = {
+    title: 'About Us',
+}
 
 export default function AboutUs() {
+
+    // setTimeout(() => console.log("Aboutus"), 10000);
     return (
         <div>
-            <Navigation />
             <h1>About us~</h1>
         </div>
     )
