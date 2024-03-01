@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 export default function Navigation() {
 
     const path = usePathname();
-    console.log(path)
+    console.log(`navigation ${path}`)
     return (
         <nav>
             <ul>
